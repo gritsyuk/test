@@ -1,7 +1,7 @@
 var arr = [2, 4, 9, 6, 7, 12, 1, 0, 13];
 
 function bubbleSort(arr) {
-  do{
+  do {
   var count = arr.length - 1;  
   for	(j=0; j < arr.length; j++)	{
     if (arr[j+1] < arr[j]) {
